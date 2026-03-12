@@ -4,7 +4,7 @@
 This project analyzes how discount strategies affect customer purchasing behavior and total revenue for a Turkish online retail platform. Using Excel, SQL, and Tableau, the analysis explores whether discounts increase order value and/or basket size or simply reduce the final purchase price.
 
 ## Problem Statement
-Discounts are widely used in businesses to stimulate sales, but their effects on customer purchasing behavior and company revenue are not always clear. This project investigates whether discounts encourage customers to increase their order value and/or basket size or primarily reduce the price paid per transaction. The analysis evaluates how discount strategies influence **total revenue and purchasing behavior**
+Discounts are widely used in businesses to stimulate sales, but their effects on customer purchasing behavior and company revenue are not always clear. This project investigates whether discounts encourage customers to increase their order value and/or basket size, or primarily reduce the price paid per transaction. The analysis evaluates how discount strategies influence **total revenue and purchasing behavior**
 
 ## Dataset
 * Source: [E-Commerce Customer Behavior & Sales Analysis](https://www.kaggle.com/datasets/umuttuygurr/e-commerce-customer-behavior-and-sales-analysis-tr)
@@ -36,7 +36,9 @@ The dataset includes transactional-level information such as:
 
 ## Key Findings
 - Exploratory Data Analysis (EDA) shows that **most orders are not discounted**, as both **median and mode discount amounts are 0**. However, the **average discount amount of TRY 69.79** suggests that the **discount amounts tend to be relatively large** when discounts are applied.
-- 
+- Pivot table analysis shows that the **total amount before discount for discounted orders is slightly higher than for non-discounted orders (by approximately TRY 23.55)**, while the **average quantity remains approximately the same at around 3 items per order**.
+- When examining the **total amount after discounts**, discounted orders generated **lower final revenue compared to non-discounted orders**. This suggests that customers mainly use discounts to **reduce the final purchase price rather than increase their basket size**.
+- Customer engagement metrics such as **average session duration** and **average pages viewed** are nearly identical between discounted and non-discounted orders, indicating **no meaningful difference in browsing behavior between the two groups**.
 
 ## Deliverables
 
