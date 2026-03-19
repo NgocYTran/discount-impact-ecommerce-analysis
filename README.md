@@ -36,10 +36,15 @@ The dataset includes transactional-level information such as:
 
 ## Key Findings
 - **Most orders are not discounted**, as both **median and mode discount amounts are 0**. However, the **average discount amount of TRY 69.79** suggests that the **discount amounts tend to be relatively large** when discounts are applied.
+  
 - Although discounted orders (6,477) are fewer than non-discounted orders (10,572), they still contribute **35.04% of total revenue**, indicating that they make up a meaningful portion of overall sales.
+  
 - The **average order value before discount** is slightly higher for **discounted orders (TRY 1,361.83)** compared to **non-discounted orders (TRY 1,338.28)**, suggesting that **discounts are more commonly applied to higher-value purchases**.
+  
 - After discounts are applied, the **average order value descrease to TRY 1,178.13**, which is approximately **TRY 160** lower than non-discounted orders. However, the **average quantity per order** remains approximately the same for both non-discounted and discounted orders **(~3 items per order)**, indicating that discounts do not lead customers to purchase more items.
+  
 - Additionally, **customer engagement metrics** such as **average session duration (~14.5 minutes)** and **average pages viewed (~9 pages)** are nearly identical between discounted and non-discounted orders, indicating **no meaningful difference in browsing behavior prior to purchase**.
+  
 - When comparing **new vs. returning customers**, there is minimal difference in discounts affecting purchasing behavior, suggesting that **discount usage is consistent across customer segments**.
 
 ### Conclusion
